@@ -1,0 +1,53 @@
+// body {
+//   background-color: salmon;
+// }
+// .main {
+//   background-color: burlywood;
+
+//   .main-heading {
+//     font-size: 2em;
+//   }
+//   .main-paragraf {
+//     font-size: 1.4em;
+//   }
+// }
+
+// .main,
+// footer {
+//   h1,
+//   p {
+//     letter-spacing: 1px;
+//   }
+// }
+
+// &
+// Parent Selector
+
+// .main {
+//   .container & {
+//     background-color: lightblue;
+//   }
+//   .main-heading {
+//     font-size: 2em;
+//   }
+//   &:hover {
+//     background-color: violet;
+//   }
+// }
+
+.main {
+  #{&}-heading {
+    font-size: 2em;
+  }
+  #{&}-paragraf {
+    font-size: 1.4em;
+  }
+}
+.footer {
+  #{&}-heading {
+    font-size: 2em;
+  }
+  #{&}-paragraf {
+    font-size: 1.5em;
+  }
+}
