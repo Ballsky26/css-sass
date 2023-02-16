@@ -1,6 +1,6 @@
-// body {
-//   background-color: salmon;
-// }
+body {
+  background-color: salmon;
+}
 // .main {
 //   background-color: burlywood;
 
@@ -35,19 +35,19 @@
 //   }
 // }
 
-.main {
-  #{&}-heading {
-    font-size: 2em;
-  }
-  #{&}-paragraf {
-    font-size: 1.4em;
-  }
-}
-.footer {
-  #{&}-heading {
-    font-size: 2em;
-  }
-  #{&}-paragraf {
-    font-size: 1.5em;
-  }
-}
+// .main {
+//   #{&}-heading {
+//     font-size: 2em;
+//   }
+//   #{&}-paragraf {
+//     font-size: 1.4em;
+//   }
+// }
+// .footer {
+//   #{&}-heading {
+//     font-size: 2em;
+//   }
+//   #{&}-paragraf {
+//     font-size: 1.5em;
+//   }
+// }
